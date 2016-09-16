@@ -34,7 +34,6 @@ header h1, header h3{
 }
 
 nav{
-  padding-top: 10px;
   position: relative;
 }
 
@@ -53,6 +52,7 @@ nav ul{
 
 nav li{
   display: inline-block;
+  border: 1px solid red;
 }
 
 nav a {
@@ -66,21 +66,22 @@ nav a {
   padding-left: 200px;
   color: #073350;
   border: 1px solid black;
-  width: 500px;
-  float: left;
+  display: flex;
   font-family: 'Open Sans';
+  vertical-align: middle;
+  text-decoration: none;
+  width: 500px;
 }
 
-.brand img {
-
-}
 
 .company-name{
   vertical-align: middle;
   text-transform: uppercase;
   margin-bottom: 10px;
   border: 1px solid black;
-
+  text-decoration: none;
+  color: #083451;
+  font-size: 18px;
 }
 
 h1{
@@ -106,4 +107,210 @@ h3 {
 
 ul img {
   width: 20px;
+}
+
+
+/*  1st Article:  COLUMN 1 styling */
+
+article {
+  display: inline-block;
+}
+
+div .column-1{
+  display: inline-block;
+  width: 60%;;
+  vertical-align: top;
+  margin-top: 0px;
+  padding-left: 112px;
+  padding-right: 50px;
+  border: 1px solid red;
+  position: relative;
+}
+
+article .column-1 h1 {
+  color:#083452;
+  font-family:'Oswald';
+  font-size: 60px;
+  border: 1px solid orange;
+  text-align: center;
+  margin-top:0px;
+  padding-top: 0px;
+  height: 150px;
+  vertical-align: bottom;
+}
+
+article .column-1 h4 {
+  color:#1870B4;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  border: 1px solid black;
+  margin: 0px;
+  text-align: left;
+  vertical-align: top;
+
+}
+
+article .column-1 .date {
+  color: #A3B2BE;
+  padding-left: 15px;
+}
+
+article .column-1 h4 img {
+  width: 40px;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+p {
+  color: #596169;
+  font-family: 'Open Sans';
+  line-height: 24px;
+  font-size: 15px;
+  margin-top: 35px;
+}
+
+p .chicmixtape {
+  text-decoration: underline;
+  color: #A3B3BF;
+}
+
+article .column-1 h2 {
+  color: #0B6AB1;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  padding-left: 30px;
+}
+
+article .column-1 h2::before {
+  position: absolute;
+  width:2px;
+  background-color:#D3D3D3;
+  content: "";
+  top:370px;
+  bottom:0;
+  left:124px;
+  height: 60px;
+}
+
+.column-1 a .aliqua-rollover {
+  color: #0968B0
+  text-decoration: underline;
+}
+
+.read-comments {
+  display: inline-block;
+  width: 158px;
+  height: 30px;
+  background-color: #A3B3BF;
+  text-align: middle;
+  vertical-align: center;
+  margin-right: 10px;
+  color: #FFF;
+  font-family: 'Open Sans';
+  font-size: 13px;
+}
+
+.read-comments i {
+  background-color: #5E686F;
+  color: #FFF;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.read-later {
+  display: inline-block;
+  width: 158px;
+  height: 30px;
+  background-color: #A3B3BF;
+  text-align: middle;
+  vertical-align: center;
+  margin-right: 10px;
+  color: #FFF;
+  font-family: 'Open Sans';
+  font-size: 13px;
+}
+
+.read-later i {
+  background-color: #5E686F;
+  color: #FFF;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.share-this-post {
+  display: inline-block;
+  width: 158px;
+  height: 30px;
+  background-color: #106DB3;
+  text-align: middle;
+  vertical-align: center;
+  color: #FFF;
+  font-family: 'Open Sans';
+  font-size: 13px;
+}
+
+.share-this-post i {
+  background-color: #083452;
+  color: #FFF;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+/* 1st Article: COLUMN 2 styling */
+
+div .column-2{
+  display: inline-block;
+  width: 35%;
+  margin-top: 30px;
+  border: 1px solid blue;
+}
+
+.column-2 img.second-image {
+  padding-left: 150px;
+
+}
+
+.column-2 h4.AM {
+  text-transform: uppercase;
+  color: #106DB3;
+  font-family: 'Open Sans';
+  border: 1px solid black;
+  text-align:center;
+  margin: 0;
+}
+
+.column-2 nav {
+  color: #A2B2BD;
+  font-family:'Open Sans';
+  font-size: 14px;
+  word-spacing: 10px;
+  border:1px solid black;
+  text-align: center;
+}
+
+.column-2 img.girl {
+  padding-right: 200px;
+  padding-left: 100px;
+}
+
+span {
+  color: #A2B2BE;
+  text-decoration: underline;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  border: 1px solid black;
+  padding-left: 285px;
+}
+
+article .column-2 h4.ssh {
+  color: #0E6CB2;
+  text-transform: uppercase;
+  font-family: 'Oswald';
 }
