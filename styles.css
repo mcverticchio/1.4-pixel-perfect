@@ -12,6 +12,9 @@ body{
   margin: 0 auto;
 }
 
+
+/*  HEADER STYLING  */
+
 header{
   position: relative; /* for absolute children */
   height: 523px;
@@ -110,7 +113,7 @@ ul img {
 }
 
 
-/*  1st Article:  COLUMN 1 styling */
+/*  SECTION 2:COLUMN 1 styling */
 
 article {
   display: inline-block;
@@ -118,11 +121,11 @@ article {
 
 div .column-1{
   display: inline-block;
-  width: 60%;;
+  width: 62%;;
   vertical-align: top;
   margin-top: 0px;
-  padding-left: 112px;
-  padding-right: 50px;
+  padding-left: 163px;
+  padding-right: 25px;
   border: 1px solid red;
   position: relative;
 }
@@ -130,19 +133,20 @@ div .column-1{
 article .column-1 h1 {
   color:#083452;
   font-family:'Oswald';
-  font-size: 60px;
+  font-size: 62px;
   border: 1px solid orange;
-  text-align: center;
-  margin-top:0px;
+  text-align: left;
+  margin-top:60px;
   padding-top: 0px;
   height: 150px;
   vertical-align: bottom;
+  line-height: 116%;
 }
 
 article .column-1 h4 {
   color:#1870B4;
   font-family: 'Open Sans';
-  font-size: 14px;
+  font-size: 12px;
   border: 1px solid black;
   margin: 0px;
   text-align: left;
@@ -152,7 +156,7 @@ article .column-1 h4 {
 
 article .column-1 .date {
   color: #A3B2BE;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 article .column-1 h4 img {
@@ -164,9 +168,10 @@ article .column-1 h4 img {
 p {
   color: #596169;
   font-family: 'Open Sans';
-  line-height: 24px;
+  line-height: 1.7em;
   font-size: 15px;
-  margin-top: 35px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 p .chicmixtape {
@@ -178,7 +183,10 @@ article .column-1 h2 {
   color: #0B6AB1;
   text-transform: uppercase;
   font-family: 'Open Sans';
-  padding-left: 30px;
+  padding-left: 25px;
+  margin-top: 30px;
+  font-size: 1.7em;
+  word-spacing: -3px;
 }
 
 article .column-1 h2::before {
@@ -186,9 +194,9 @@ article .column-1 h2::before {
   width:2px;
   background-color:#D3D3D3;
   content: "";
-  top:370px;
+  top:490px;
   bottom:0;
-  left:124px;
+  left:168px;
   height: 60px;
 }
 
@@ -199,7 +207,7 @@ article .column-1 h2::before {
 
 .read-comments {
   display: inline-block;
-  width: 158px;
+  width: 159px;
   height: 30px;
   background-color: #A3B3BF;
   text-align: middle;
@@ -221,7 +229,7 @@ article .column-1 h2::before {
 
 .read-later {
   display: inline-block;
-  width: 158px;
+  width: 129px;
   height: 30px;
   background-color: #A3B3BF;
   text-align: middle;
@@ -243,7 +251,7 @@ article .column-1 h2::before {
 
 .share-this-post {
   display: inline-block;
-  width: 158px;
+  width: 155px;
   height: 30px;
   background-color: #106DB3;
   text-align: middle;
@@ -263,13 +271,15 @@ article .column-1 h2::before {
 }
 
 
-/* 1st Article: COLUMN 2 styling */
+/* SECTION 2: COLUMN 2 styling */
 
 div .column-2{
   display: inline-block;
-  width: 35%;
-  margin-top: 30px;
+  width: 30%;
+  margin-top: 64px;
   border: 1px solid blue;
+  margin-left: 30px;
+  padding-right: 60px;
 }
 
 .column-2 img.second-image {
@@ -296,21 +306,97 @@ div .column-2{
 }
 
 .column-2 img.girl {
-  padding-right: 200px;
-  padding-left: 100px;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
 span {
   color: #A2B2BE;
   text-decoration: underline;
   font-family: 'Open Sans';
-  font-size: 14px;
+  font-size: 13px;
   border: 1px solid black;
-  padding-left: 285px;
+  padding-left: 210px;
+  line-height: 2;
 }
 
 article .column-2 h4.ssh {
   color: #0E6CB2;
   text-transform: uppercase;
   font-family: 'Oswald';
+  margin: 40px 0 0 20px;
+  font-size: 18px;
+}
+
+p.last-paragraph {
+  margin-top: 5px;
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 1.7em;
+  padding-right: 20px;
+  color: #A3B3BF;
+}
+
+a.chic-mixtape {
+  color: #A3B3BF;
+}
+
+
+/*  END OF SECTION 2 STYLING */
+
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #E1E7EA;
+  margin-top: 68px;
+  margin-bottom:0px;
+}
+
+
+/*  BEGINNING OF SECTION 3 STYLING  */
+
+article.section-3 {
+  display: block;
+}
+
+article.section-3 h1 {
+  color:#083452;
+  font-family: 'Oswald';
+  font-size: 65px;
+  word-spacing: -5px;
+  margin-top:0;
+  text-align: center;
+  padding-top: 30px;
+}
+.image-row,
+.surfer-dude,
+.beer-flight,
+.Zach-G,
+.liquor {
+  display: inline;
+}
+
+.beer-flight img {
+  width:100px;
+  display: inline;
+}
+
+.surfer-dude img {
+  width: 100px;
+  display: inline;
+}
+
+.very-bottom {
+  background-color: #083452;
+  height: 66px;
+  color: #A3B3BF;
+}
+
+.very-bottom img {
+  vertical-align: middle;
+}
+
+.very-bottom nav {
+  float: right;
+  vertical-align:middle;
 }
