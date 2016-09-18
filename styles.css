@@ -29,17 +29,15 @@ header:before{
 }
 
 header nav{
-  padding-top: 10px;
   position: relative;
-  border: 1px solid orange;
-  padding-right: 190px;
-  font-size: 19px;
-  padding-top: 15px;
+  padding-right: 195px;
+  font-size: 18px;
+  padding-top: 10px;
+  margin-left: 137px;
 }
 
 .brand{
   position: relative;
-  padding-left: 190px;
   color: #083451;
   display: inline;
 }
@@ -53,9 +51,10 @@ header nav{
   vertical-align: middle;
   text-transform: uppercase;
   color: #083451;
-  padding-left:0;
+  padding-left:56px;
   font-size: 16px;
   text-decoration: none;
+  line-height: 2.8;
 }
 
 nav ul{
@@ -65,7 +64,8 @@ nav ul{
   float:right;
   margin:0;
   padding-left:0px;
-  word-spacing: 5px;
+  word-spacing: 8px;
+  line-height:2.3;
 }
 
 nav li{
@@ -84,9 +84,9 @@ ul.main-nav a {
 ul.main-nav img {
   display: inline-block;
   position:absolute;
-  width:17px;
+  width:16px;
   left:125px;
-  bottom: 4px;
+  bottom: 16px;
 
 }
 header h1, header h3{
@@ -102,16 +102,18 @@ header h1{
   font-size: 110px;
   margin:0;
   height: 110px;
-  padding-top:158px;
+  padding-top:154px;
   padding-right:8px;
+  font-weight: 100;
 }
 
 header h3 {
   color: #083451;
   margin:0;
-  font-size: 15px;
+  font-size: 16px;
   padding-top: 108px;
   padding-right: 9px;
+  font-weight: 400;
 }
 /*  SECTION 2:COLUMN 1 styling */
 
@@ -202,8 +204,8 @@ article .column-1 h2::before {
   height: 60px;
 }
 
-.column-1 a .aliqua-rollover {
-  color: #0968B0
+.third-paragraph a.aliqua-rollover {
+  color: #0968B0;
   text-decoration: underline;
 }
 
@@ -290,7 +292,7 @@ div .column-2{
 
 .column-2 img.second-image {
   padding-left: 115px;
-  height: 90px;
+  height: 85px;
   margin-top: 15px;
 }
 
