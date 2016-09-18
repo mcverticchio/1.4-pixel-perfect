@@ -28,29 +28,53 @@ header:before{
   background-color: rgba(0, 96, 172, 0.6);
 }
 
-header h1, header h3{
-  position: relative;
-  text-align: center;
-}
-
-nav{
+header nav{
   padding-top: 10px;
   position: relative;
+  border: 1px solid orange;
+  padding-right: 190px;
+  font-size: 19px;
+  padding-top: 15px;
+}
+
+.brand{
+  position: relative;
+  padding-left: 190px;
+  color: #083451;
+  display: inline;
+}
+
+.brand img.logo {
+  position: absolute;
+}
+
+.brand span.company-name{
+  position: relative;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #083451;
+  padding-left:0;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 nav ul{
+  position: relative;
   display: inline-block;
   list-style: none;
   float:right;
   margin:0;
   padding-left:0px;
+  word-spacing: 5px;
 }
 
 nav li{
+  position:relative;
   display: inline-block;
 }
 
 ul.main-nav a {
+  position: relative;
   color: #083451;
   text-decoration: none;
   font-family: 'Oswald';
@@ -60,26 +84,14 @@ ul.main-nav a {
 ul.main-nav img {
   display: inline-block;
   position:absolute;
-  width:20px;
-}
+  width:17px;
+  left:125px;
+  bottom: 4px;
 
-.brand{
-  padding-left: 200px;
-  color: #083451;
-  display: inline;
 }
-
-.logo {
-  position: absolute;
-}
-
-.company-name{
-  vertical-align: middle;
-  text-transform: uppercase;
-  color: #083451;
-  padding-left:0;
-  font-size: 17px;
-  text-decoration: none;
+header h1, header h3{
+  position: relative;
+  text-align: center;
 }
 
 header h1{
@@ -90,12 +102,16 @@ header h1{
   font-size: 110px;
   margin:0;
   height: 110px;
+  padding-top:158px;
+  padding-right:8px;
 }
 
-h3 {
+header h3 {
   color: #083451;
   margin:0;
   font-size: 15px;
+  padding-top: 108px;
+  padding-right: 9px;
 }
 /*  SECTION 2:COLUMN 1 styling */
 
@@ -349,6 +365,8 @@ hr {
 
 ul.section-3 {
   display: block;
+  padding:0;
+  margin-bottom: 0px;
 }
 
 ul.section-3 h1 {
@@ -356,11 +374,10 @@ ul.section-3 h1 {
   font-family: 'Oswald';
   font-size: 65px;
   word-spacing: -5px;
-  margin:0;
+  margin:21px 6px 0 0;
   text-align: center;
   padding-top: 6px 11px 0 28px;
   text-transform: uppercase;
-
 }
 
 .surfer-dude,
@@ -368,13 +385,17 @@ ul.section-3 h1 {
 .Zach-G,
 .liquor {
   display: inline-block;
-  height: 321px;
-  width:295px;
+  height: 330px;
+  width:325px;
   color: #083452;
   font-family: 'Oswald';
   text-transform: uppercase;
-  font-size:18px;
+  font-size:30px;
   background-image: url('http://unsplash.it/1300/523/');
+  margin-top: -20px;
+  margin-bottom: 0px;
+  text-align: left;
+  padding-top: 280px;
 }
 
 .image-row:before{
@@ -387,20 +408,45 @@ ul.section-3 h1 {
   background-color: rgba(0, 96, 172, 0.6);
 }
 
+.surfer-dude {
+  border: 1px solid red;
+}
 
+.beer-flight {
+  color: #FFF;
+}
 
+.Zach-G {
+  margin-top:0px;
+}
 
 .very-bottom {
   background-color: #083452;
-  height: 66px;
+  height: 83px;
   color: #A3B3BF;
+  font-family: 'Open Sans';
+  font-size: 13px;
+  padding: 20px 155px 0 180px;
 }
 
 .very-bottom img {
   vertical-align: middle;
+  width: 30px;
 }
 
 .very-bottom nav {
   float: right;
   vertical-align:middle;
+}
+
+.very-bottom nav a {
+  color: #A3B3BF;
+  text-decoration: none;
+  border-right: 1px solid #A3B3BF;
+  padding-left:8px;
+  padding-right:8px;
+}
+
+.very-bottom nav a.last-nav {
+  border-right: 1px solid #083452;
 }
