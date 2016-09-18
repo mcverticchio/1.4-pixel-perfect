@@ -12,9 +12,6 @@ body{
   margin: 0 auto;
 }
 
-
-/*  HEADER STYLING  */
-
 header{
   position: relative; /* for absolute children */
   height: 523px;
@@ -37,6 +34,7 @@ header h1, header h3{
 }
 
 nav{
+  padding-top: 10px;
   position: relative;
 }
 
@@ -44,75 +42,61 @@ nav ul{
   display: inline-block;
   list-style: none;
   float:right;
-  margin-bottom: 100px;
-  margin-top: 5px;
-  padding-right: 153px;
-  font-size:18px;
-  line-height: 5px;
-  letter-spacing: 0.2px;
-  word-spacing: 10px;
+  margin:0;
+  padding-left:0px;
 }
 
 nav li{
   display: inline-block;
-  border: 1px solid red;
 }
 
-nav a {
-  color: #06304B;
+ul.main-nav a {
+  color: #083451;
   text-decoration: none;
-  font-family:'Oswald';
+  font-family: 'Oswald';
   text-transform: uppercase;
+}
+
+ul.main-nav img {
+  display: inline-block;
+  position:absolute;
+  width:20px;
 }
 
 .brand{
   padding-left: 200px;
-  color: #073350;
-  border: 1px solid black;
-  display: flex;
-  font-family: 'Open Sans';
-  vertical-align: middle;
-  text-decoration: none;
-  width: 500px;
+  color: #083451;
+  display: inline;
 }
 
+.logo {
+  position: absolute;
+}
 
 .company-name{
   vertical-align: middle;
   text-transform: uppercase;
-  margin-bottom: 10px;
-  border: 1px solid black;
-  text-decoration: none;
   color: #083451;
-  font-size: 18px;
+  padding-left:0;
+  font-size: 17px;
+  text-decoration: none;
 }
 
-h1{
-  font-family: 'Myriad Pro';
+header h1{
+  font-family: 'OpenSans';
   color: #FFF;
-  font-size: 112px;
+  font-family: 'Myriad Pro';
   text-transform: uppercase;
-  padding-top: 142px;
-  margin-bottom: 0px;
-  text-align: bottom;
-  line-height: 78px;
-  font-weight: 100;
+  font-size: 110px;
+  margin:0;
+  height: 110px;
 }
 
 h3 {
-  font-family: 'Open Sans';
-  height: 100px;
-  margin: 0;
-  color: #073350;
+  color: #083451;
+  margin:0;
   font-size: 15px;
-
 }
-
-ul img {
-  width: 20px;
-}
-
-
 /*  SECTION 2:COLUMN 1 styling */
 
 article {
@@ -141,6 +125,8 @@ article .column-1 h1 {
   height: 150px;
   vertical-align: bottom;
   line-height: 116%;
+  text-transform: uppercase;
+  margin-bottom: 0px;
 }
 
 article .column-1 h4 {
@@ -170,7 +156,7 @@ p {
   font-family: 'Open Sans';
   line-height: 1.7em;
   font-size: 15px;
-  margin-top: 30px;
+  margin-top: 31px;
   margin-bottom: 30px;
 }
 
@@ -205,6 +191,10 @@ article .column-1 h2::before {
   text-decoration: underline;
 }
 
+p.fourth-paragraph {
+  margin-bottom: 25px;
+}
+
 .read-comments {
   display: inline-block;
   width: 159px;
@@ -212,7 +202,7 @@ article .column-1 h2::before {
   background-color: #A3B3BF;
   text-align: middle;
   vertical-align: center;
-  margin-right: 10px;
+  margin-right: 6px;
   color: #FFF;
   font-family: 'Open Sans';
   font-size: 13px;
@@ -234,7 +224,7 @@ article .column-1 h2::before {
   background-color: #A3B3BF;
   text-align: middle;
   vertical-align: center;
-  margin-right: 10px;
+  margin-right: 4px;
   color: #FFF;
   font-family: 'Open Sans';
   font-size: 13px;
@@ -283,8 +273,9 @@ div .column-2{
 }
 
 .column-2 img.second-image {
-  padding-left: 150px;
-
+  padding-left: 115px;
+  height: 90px;
+  margin-top: 15px;
 }
 
 .column-2 h4.AM {
@@ -303,6 +294,7 @@ div .column-2{
   word-spacing: 10px;
   border:1px solid black;
   text-align: center;
+  padding-top:0;
 }
 
 .column-2 img.girl {
@@ -355,36 +347,48 @@ hr {
 
 /*  BEGINNING OF SECTION 3 STYLING  */
 
-article.section-3 {
+ul.section-3 {
   display: block;
 }
 
-article.section-3 h1 {
+ul.section-3 h1 {
   color:#083452;
   font-family: 'Oswald';
   font-size: 65px;
   word-spacing: -5px;
-  margin-top:0;
+  margin:0;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 6px 11px 0 28px;
+  text-transform: uppercase;
+
 }
-.image-row,
+
 .surfer-dude,
 .beer-flight,
 .Zach-G,
 .liquor {
-  display: inline;
+  display: inline-block;
+  height: 321px;
+  width:295px;
+  color: #083452;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size:18px;
+  background-image: url('http://unsplash.it/1300/523/');
 }
 
-.beer-flight img {
-  width:100px;
-  display: inline;
+.image-row:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 96, 172, 0.6);
 }
 
-.surfer-dude img {
-  width: 100px;
-  display: inline;
-}
+
+
 
 .very-bottom {
   background-color: #083452;
