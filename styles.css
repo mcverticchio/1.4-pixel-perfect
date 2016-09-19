@@ -309,7 +309,7 @@ div .column-2{
   margin: 0;
 }
 
-.column-2 nav {
+.column-2 nav a {
   color: #A2B2BD;
   font-family:'Open Sans';
   font-size: 14px;
@@ -372,6 +372,7 @@ ul.section-3 {
   padding:0;
   margin-bottom: 0px;
   list-style: none;
+  position:relative;
 }
 
 ul.section-3 h1 {
@@ -412,6 +413,20 @@ ul.section-3 h1 {
 
 .pic-2 {
   color: #FFF;
+}
+
+div.images {
+  position:relatve;
+}
+
+div .images:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 96, 172, 0.6);
 }
 
 
