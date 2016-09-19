@@ -309,13 +309,19 @@ div .column-2{
   margin: 0;
 }
 
+.column-2 nav {
+  padding-left: 60px;
+}
+
 .column-2 nav a {
   color: #A2B2BD;
   font-family:'Open Sans';
   font-size: 14px;
-  word-spacing: 10px;
+  word-spacing: 8px;
   text-align: center;
   padding-top:0;
+  text-decoration: none;
+
 }
 
 .column-2 img.girl {
@@ -415,11 +421,11 @@ ul.section-3 h1 {
   color: #FFF;
 }
 
-div.images {
+.pic-1 {
   position:relatve;
 }
 
-div .images:before {
+.pic-1:before {
   content: "";
   position: absolute;
   top: 0;
@@ -428,6 +434,7 @@ div .images:before {
   right: 0;
   background-color: rgba(0, 96, 172, 0.6);
 }
+
 
 
 
