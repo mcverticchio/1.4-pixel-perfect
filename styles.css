@@ -18,7 +18,8 @@ header{
   background-image: url('http://unsplash.it/1300/523/');
 }
 
-header:before{
+header:before
+      {
   content: "";
   position: absolute;
   top: 0;
@@ -28,7 +29,7 @@ header:before{
   background-color: rgba(0, 96, 172, 0.6);
 }
 
-header nav{
+header nav {
   position: relative;
   padding-right: 195px;
   font-size: 18px;
@@ -64,8 +65,11 @@ nav ul{
   float:right;
   margin:0;
   padding-left:0px;
-  word-spacing: 8px;
   line-height:2.3;
+}
+
+nav ul.main-nav {
+  word-spacing: 8px;
 }
 
 nav li{
@@ -128,7 +132,6 @@ div .column-1{
   margin-top: 0px;
   padding-left: 163px;
   padding-right: 25px;
-  border: 1px solid red;
   position: relative;
 }
 
@@ -136,22 +139,22 @@ article .column-1 h1 {
   color:#083452;
   font-family:'Oswald';
   font-size: 62px;
-  border: 1px solid orange;
   text-align: left;
   margin-top:60px;
   padding-top: 0px;
   height: 150px;
   vertical-align: bottom;
-  line-height: 116%;
+  line-height: 117%;
   text-transform: uppercase;
   margin-bottom: 0px;
+  font-weight: 100;
+  word-spacing:-2px;
 }
 
 article .column-1 h4 {
   color:#1870B4;
   font-family: 'Open Sans';
   font-size: 12px;
-  border: 1px solid black;
   margin: 0px;
   text-align: left;
   vertical-align: top;
@@ -233,6 +236,7 @@ p.fourth-paragraph {
   width: 30px;
   text-align: center;
   vertical-align: middle;
+  text-decoration: none;
 }
 
 .read-later {
@@ -255,6 +259,7 @@ p.fourth-paragraph {
   width: 30px;
   text-align: center;
   vertical-align: middle;
+  text-decoration: none;
 }
 
 .share-this-post {
@@ -276,6 +281,7 @@ p.fourth-paragraph {
   width: 30px;
   text-align: center;
   vertical-align: middle;
+  text-decoration: none;
 }
 
 
@@ -284,9 +290,8 @@ p.fourth-paragraph {
 div .column-2{
   display: inline-block;
   width: 30%;
-  margin-top: 64px;
-  border: 1px solid blue;
-  margin-left: 30px;
+  margin-top: 70px;
+  margin-left: 25px;
   padding-right: 60px;
 }
 
@@ -300,7 +305,6 @@ div .column-2{
   text-transform: uppercase;
   color: #106DB3;
   font-family: 'Open Sans';
-  border: 1px solid black;
   text-align:center;
   margin: 0;
 }
@@ -310,7 +314,6 @@ div .column-2{
   font-family:'Open Sans';
   font-size: 14px;
   word-spacing: 10px;
-  border:1px solid black;
   text-align: center;
   padding-top:0;
 }
@@ -320,12 +323,11 @@ div .column-2{
   margin-left: 20px;
 }
 
-span {
+span a {
   color: #A2B2BE;
   text-decoration: underline;
   font-family: 'Open Sans';
   font-size: 13px;
-  border: 1px solid black;
   padding-left: 210px;
   line-height: 2;
 }
@@ -369,6 +371,7 @@ ul.section-3 {
   display: block;
   padding:0;
   margin-bottom: 0px;
+  list-style: none;
 }
 
 ul.section-3 h1 {
@@ -380,15 +383,19 @@ ul.section-3 h1 {
   text-align: center;
   padding-top: 6px 11px 0 28px;
   text-transform: uppercase;
+  padding-bottom: 45px;
+  list-style:none;
 }
 
-.surfer-dude,
-.beer-flight,
-.Zach-G,
-.liquor {
+
+/*  ROW OF PICTURES STYLING */
+
+.pic-1,
+.pic-2,
+.pic-3,
+.pic-4 {
   display: inline-block;
-  height: 330px;
-  width:325px;
+  width:324px;
   color: #083452;
   font-family: 'Oswald';
   text-transform: uppercase;
@@ -397,6 +404,9 @@ ul.section-3 h1 {
   margin-top: -20px;
   margin-bottom: 0px;
   text-align: left;
+  padding-left: 16px;
+  vertical-align: top;
+  height: 330px;
   padding-top: 280px;
 }
 
@@ -410,25 +420,31 @@ ul.section-3 h1 {
   background-color: rgba(0, 96, 172, 0.6);
 }
 
-.surfer-dude {
-  border: 1px solid red;
-}
-
-.beer-flight {
+.pic-2 {
   color: #FFF;
+  opacity: 0.5;
 }
 
-.Zach-G {
-  margin-top:0px;
+
+
+.pic-3 {
+  padding-top: 240px;
+  padding-left:18px;
 }
 
+.pic-4 {
+  padding-left:20px;
+}
+
+
+/*  FOOTER STYLING */
 .very-bottom {
   background-color: #083452;
   height: 83px;
   color: #A3B3BF;
   font-family: 'Open Sans';
   font-size: 13px;
-  padding: 20px 155px 0 180px;
+  padding: 35px 155px 0 180px;
 }
 
 .very-bottom img {
@@ -439,6 +455,7 @@ ul.section-3 h1 {
 .very-bottom nav {
   float: right;
   vertical-align:middle;
+
 }
 
 .very-bottom nav a {
