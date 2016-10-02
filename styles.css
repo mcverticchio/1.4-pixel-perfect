@@ -418,6 +418,7 @@ ul.section-3 h1 {
   left: 0;
   right: 0;
   background-color: rgba(0, 96, 172, 0.6);
+  transition: 0.5s;
 }
 
 .pic-1:hover:before,
