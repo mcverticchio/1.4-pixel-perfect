@@ -213,77 +213,56 @@ article .column-1 h2::before {
 }
 
 p.fourth-paragraph {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
-.read-comments {
+.bottom-bar {
   display: inline-block;
-  width: 159px;
-  height: 30px;
-  background-color: #A3B3BF;
+
+  /*background-color: #A3B3BF;
   text-align: middle;
   vertical-align: center;
   margin-right: 6px;
-  color: #FFF;
   font-family: 'Open Sans';
   font-size: 13px;
+  border: 1px solid red;*/*/
 }
 
-.read-comments i {
-  background-color: #5E686F;
-  color: #FFF;
-  height: 30px;
-  width: 30px;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-}
-
-.read-later {
-  display: inline-block;
-  width: 129px;
-  height: 30px;
-  background-color: #A3B3BF;
-  text-align: middle;
-  vertical-align: center;
-  margin-right: 4px;
+.bottom-bar a {
+  background: #A3B3BF;
   color: #FFF;
   font-family: 'Open Sans';
-  font-size: 13px;
-}
-
-.read-later i {
-  background-color: #5E686F;
-  color: #FFF;
+  margin-right: 10px;
   height: 30px;
-  width: 30px;
-  text-align: center;
-  vertical-align: middle;
   text-decoration: none;
-}
-
-.share-this-post {
-  display: inline-block;
-  width: 155px;
-  height: 30px;
-  background-color: #106DB3;
-  text-align: middle;
-  vertical-align: center;
-  color: #FFF;
-  font-family: 'Open Sans';
   font-size: 13px;
+  padding: 6px;
+  padding-left: 42px;
+  padding-right: 15px;
+  position: relative;
 }
 
-.share-this-post i {
-  background-color: #083452;
+.bottom-bar a.read-later {
+  padding-left: 47px;
+}
+
+.bottom-bar i{
+  background: #5E686F;
   color: #FFF;
-  height: 30px;
-  width: 30px;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
+  padding: 9px 10px;
+  padding-top: 8px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom:1px;
+}
+.bottom-bar a:hover {
+  background:#106DB3;
 }
 
+.bottom-bar i:hover {
+  background: #083452;
+}
 
 /* SECTION 2: COLUMN 2 styling */
 
@@ -415,6 +394,7 @@ ul.section-3 h1 {
   vertical-align: top;
   height: 330px;
   padding-top: 280px;
+  position: relative;
 }
 
 .pic-2 {
